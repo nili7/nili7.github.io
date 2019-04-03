@@ -1,0 +1,12 @@
+<h1>Vegan Diet</h1>
+    <p><h3>What is Veganism?</h3>
+The definition of veganism, according to The Vegan Society, who coined the term in 1944, is: 
+
+"A philosophy and way of living which seeks to exclude - as far as is possible and practicable - all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose; and by extension, promotes the development and use of animal-free alternatives for the benefit of humans, animals and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals."
+
+
+<h4>What happens to your body?</h4>
+Due to the absence of red meat in a plant-based diet, vegans are typically deficient in vitamin B12 and iron, which can lead to headaches, dizziness and if left untreated, anaemia.
+
+In addition, you may feel tired, develop a calcium deficiency and go to the toilet more, but on the flipside you will probably lose weight and could reduce your risk of heart disease. Vegans can also take supplements to counteract the lack of vitamin B12, iron and calcium in their diet, so there's no need to fret.
+</p>

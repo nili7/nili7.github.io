@@ -1,0 +1,45 @@
+<h1>The Zone Diet</h1>
+    <p><h3>WHAT IS THE ZONE DIET?</h3>
+The Zone Diet was developed by Dr. Barry Sears more than 30 years ago to reduce diet-induced inflammation.
+
+The Zone Diet will help you shed excess pounds and improve your mental and physical performance while living a more fulfilling life. The Zone Diet is a life-long dietary program based on strong science to reduce diet-induced inflammation.
+
+<h4>WHAT IS THE ZONE?</h4>
+The Zone is a real physiological state in your body that can be measured in clinical tests. If you are in the Zone, you have optimized your ability to control diet-induced inflammation. This inflammation is the reason you gain weight, become sick, and age faster.
+
+There are three clinical markers that define if you are in the Zone. If all three clinical markers are within their ideal values, you are in the Zone. Otherwise, you are not.
+<table>
+  <tr>
+    <td><b>Clinical Marker</b></td>
+    <td><b>Ideal Value</b></td>
+    <td><b>What It Indicates</b></td>
+    <td><b>How to Test Yourself</b></td>
+  </tr>
+
+  <tr>
+    <td>TG/HDL ratio
+From your diet.</td>
+    <td>< 1</td>
+    <td>Level of insulin resistance in the liver. </td>
+    <td>Typically included with normal blood work within your cholesterol panel. Ask your doctor.</td>
+  </tr>
+
+  <tr>
+    <td>AA/EPA ratio
+From your diet & fish oil.</td>
+    <td>1.5-3</td>
+    <td>Level of diet-induced Inflammation in the body.</td>
+    <td>Take the Zone Labs Cellular Inflammation Test.</td>
+  </tr>
+
+  <tr>
+    <td>HbA1c
+From your diet & polyphenols.</td>
+    <td>5%</td>
+    <td>Level of Advanced Glycoslated Endproducts (AGE) tied to your blood glucose.</td>
+    <td>To measure your level of blood sugar over a three-month period, ask your doctor.</td>
+  </tr>
+</table>
+
+In the Zone, you will live a longer and better life because you are controlling diet-induced inflammation. That is the secret to maintaining wellness.
+</p>

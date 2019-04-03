@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="descriotion" content="A gaming review website to suggest which games are the best">
+	<meta name="Keywords" content="#">
+	<meta name="author" content="FWT team">
+
+	  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Health&U | Your home to good food</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+</head>
+<body>
+<header>
+	<div class="container1">
+		<div id="branding">
+			<h1 style="font-family:'Advent Pro';font-size: 50px; ">Health&U</h1>
+
+		</div>
+		<nav>
+			<ul>
+				<li class="current"><a href="index.html">Home</a></li>
+				<li><a href="Reviews.html">Diets</a></li>
+				<li><a href="formpage.php">Contact Us</a></li>
+				<li><a href="form.php">Subscribe</a></li>
+				<li><a href="forumpage.php">Forum</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section id="showcase">
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="img1.jpg" style="width:100%">
+  <div class="text" style="font-size: 40px;font-family: 'Acme', sans-serif;"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img2.jpg" style="width:100%">
+  <div class="text" style="font-size: 40px;font-family: 'Acme', sans-serif;"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="img3.jpg" style="width:100%">
+  <div class="text" style="font-size: 40px;font-family: 'Acme', sans-serif;"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+
+<section id="Boxes">
+	<div class="container">
+		<div class="box">
+			<a href="quiz.html">
+				<img src="meh.jpg">
+			</a>
+				<h3>Gusto Quizzes</h3>
+			<p>Take these healthy quizzes to know where you lie on the health meter!</p>
+		</div>
+		<div class="box">
+			<a href="news.html">
+				<img src="meh1.jpg">
+			</a>
+				<h3>Latest News</h3>
+			<p>Get latest news on healthy diet , tips and tricks.</p>
+		</div>
+		<div class="box">
+			<a href="forumpage.php">
+				<img src="meh2.jpg">
+			</a>
+				<h3>Our Forum</h3>
+			<p>
+				Post your questions and get answers from our members.
+			</p>
+		</div>
+	</div>
+	
+</section>
+
+<section>
+	<div class="container1" id="newsletter">
+		<h1>Become a Health&U Member</h1>
+		<form action="form.php">
+		
+			<button type="submit" class="button_1" onclick="window.location.href='form.php'"><span>Get Started</span></button>
+		</form>
+	</div>
+	
+</section>
+
+<footer>
+	<p>Health&U, Copyright &copy; 2019 Author : FWT Team</p>
+</footer>
+
+<script>
+
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+
+ <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

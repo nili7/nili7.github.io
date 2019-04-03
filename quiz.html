@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="Keywords" content="#">
+	<meta name="author" content="FWT team">
+
+	  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Health&U | Your home to good food</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+
+	<title>Quiz</title>
+	<style type="text/css">
+		body{
+			background-image: url('vegetarian.jpg');
+			background-attachment: fixed;
+		}
+		td{
+			padding: 20px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		function checkans () {
+			let score= 0;
+			let a1= document.quizzie.querySelector('input[name="q1"]:checked').value;
+			let a2= document.quizzie.querySelector('input[name="q2"]:checked').value;
+			let a3= document.quizzie.querySelector('input[name="q3"]:checked').value;
+			let a4= document.quizzie.querySelector('input[name="q4"]:checked').value;
+
+			if (a1=='Nutrients')
+				score+=1;
+			if (a2=="Body building foods")
+				score+=1;
+			if (a3=="8")
+				score+=1;
+			if (a4=="Proteins")
+				score+=1;
+			
+			container.appendChild(document.createTextNode("Your score is: "+score));
+			container.appendChild(document.createElement("br"));
+			if (score>2)
+			{
+				var DOM_img = document.createElement("img");
+				DOM_img.src = "yayy.gif";
+				// DOM_img.width= '50%';
+				container.appendChild(DOM_img);
+			}
+							
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container1">
+			<div id="branding">
+				<h1 style="font-family:'Advent Pro';font-size: 50px; ">Health&U</h1>
+
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Reviews.html">Diets</a></li>
+					<li><a href="formpage.php">Contact Us</a></li>
+					<li><a href="form.php">Subscribe</a></li>
+					<li><a href="forumpage.php">Forum</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<form name="quizzie">
+		<center><table bgcolor="white" width="50%">
+			<tr>
+				<td><br><h1>Start your Quiz!</h1></td>
+			</tr>
+			<tr>
+				<td>
+					Q1. Substances found in food that perform different functions of the body are called ___<br>
+					<input type="radio" name="q1" value="Nutrients"> <label for="Nutrients">Nutrients</label><br>
+					<input type="radio" name="q1" value="Chemicals"> <label for="Chemicals">Chemicals</label><br>
+					<input type="radio" name="q1" value="Preservatives"> <label for="Preservatives">Preservatives</label><br>
+					<input type="radio" name="q1" value="None of the above"> <label for="None of the above">None of the above</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Q2. Proteins are called<br>
+					<input type="radio" name="q2" value="Glow foods"> <label for="Glow foods">Glow foods</label><br>
+					<input type="radio" name="q2" value="Body building foods" > <label for="Body building foods">Body building foods</label><br>
+					<input type="radio" name="q2" value="Warm foods"> <label for="Warm foods"></label>Warm foods<br>
+					<input type="radio" name="q2" value="Energy- giving foods"> <label for="Energy- giving foods">Energy- giving foods</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Q3. We need ____ glasses of water everyday<br>
+					<input type="radio" name="q3" value="12" > <label for="12">12</label><br>
+					<input type="radio" name="q3" value="8" > <label for="8">8</label><br>
+					<input type="radio" name="q3" value="6" > <label for="6">6</label><br>
+					<input type="radio" name="q3" value="10" > <label for="10">10</label><br>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Q4. Children need a lot of<br>
+					<input type="radio" name="q4" value="Fats" > <label for="Fats">Fats</label><br>
+					<input type="radio" name="q4" value="Carbohydrates" > <label for="Carbohydrates">Carbohydrates</label><br>
+					<input type="radio" name="q4" value="Proteins" > <label for="Proteins">Proteins</label><br>
+					<input type="radio" name="q4" value="Cholesterol" > <label for="Cholesterol">Cholesterol</label><br>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<button type="button" class="btn btn-info" onclick="checkans()">Submit</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div id='container'></div>
+				</td>
+			</tr>
+		</table></center>
+	</form>
+	<footer>
+	<p>Health&U, Copyright &copy; 2019 Author : FWT Team</p>
+</footer>
+</body>
+</html>

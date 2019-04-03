@@ -1,0 +1,22 @@
+<h1>Weight Watchers Diet</h1>
+    <p><h3>Who are Weight Watchers?</h3>
+Weight Watchers was founded by Jean Nidetch in 1963 out of her Queens, New York home.
+In the 90s, it introduced a points-based system that assigned values to foods and drinks based on their fiber, fat and calorie contents.
+
+Weight Watchers has overhauled the points-based system several times over the years, most recently launching the SmartPoints system in 2015.
+
+
+<h4>The SmartPoints System</h4>
+SmartPoints assigns different point values to foods based on factors such as their calorie, fat, protein and sugar contents.
+When beginning the program, each dieter is given a set amount of daily points based on personal data like their height, age, gender and weight-loss goals.
+Although no foods are off limits, dieters must stay below their set daily points to reach their desired weight.
+Healthier foods are lower in points than unhealthy foods like candy, chips and soda.
+For example, a 230-calorie, glazed-yeast donut is 10 SmartPoints, while 230 calories of yogurt topped with blueberries and granola is only 2 SmartPoints.
+In 2017, Weight Watchers revamped the SmartPoints program to make it more flexible and user-friendly.
+The new system, called WW Freestyle, is based on the SmartPoints system but includes over 200 foods rated zero points.
+According to the Weight Watchers website, WW Freestyle makes life simpler for dieters because zero-point foods do not have to be weighed, measured or tracked, allowing more freedom when planning meals and snacks.
+Zero-point foods include eggs, skinless chicken, fish, beans, tofu and non-fat plain yogurt, among many other high-protein, low-calorie foods.
+Before the Freestyle program, only fruits and non-starchy vegetables were rated zero points.
+Now, foods that are higher in protein receive a lower point value, while foods that are higher in sugar and saturated fat receive higher point values.
+Weight Watchers new Freestyle program encourages dieters to make healthier food choices instead of basing decisions on how many points they are allotted.
+</p>
